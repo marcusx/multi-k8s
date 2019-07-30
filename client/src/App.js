@@ -7,7 +7,7 @@ import Fib from './Fib';
 
 function App() {
   return (
-      <Route>
+      <Router>
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/otherpage" component={OtherPage}/>
           </div>
         </div>
-      </Route>
+      </Router>
   );
 }
 
